@@ -31,9 +31,6 @@ export default function Header() {
               NEW ARRIVALS
             </a>
             <a href="#" className="hover:text-gray-600">
-              SYNC
-            </a>
-            <a href="#" className="hover:text-gray-600">
               COLLECTION
             </a>
             <a href="#" className="hover:text-gray-600">

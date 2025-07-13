@@ -1,9 +1,9 @@
 export default function WomenCategory() {
   const categories = [
-    { name: "Unstitched", image: "/placeholder.svg?height=300&width=250&text=Unstitched+Lawn+Fabric" },
-    { name: "Stitched", image: "/placeholder.svg?height=300&width=250&text=Stitched+Kurti+Collection" },
-    { name: "Kurta", image: "/placeholder.svg?height=300&width=250&text=Women+Kurta+Designs" },
-    { name: "Trousers", image: "/placeholder.svg?height=300&width=250&text=Palazzo+Trousers" },
+    { name: "Unstitched", image: "https://www.gulahmedshop.com/media/wysiwyg/2025/03_category_icons/01_lawn_collection/dhoop_kinaray.jpg?format=webp?format=webp" },
+    { name: "Stitched", image: "https://i.pinimg.com/564x/82/f7/f1/82f7f11cc10a86e76834e231bec88d87.jpg" },
+    { name: "Kurta", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpOgJJ4-hXsi3jQfDCX8SeglVIPhy24gLknw&s" },
+    { name: "Trousers", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQncFUz0tbsEikSlMUBB0lbmsNdTaJtvkAyHw&s" },
   ]
 
   return (

@@ -13,7 +13,7 @@ export default function ProductShowcase() {
       name: "Embroidered Lawn Suit",
       price: "PKR 4,500",
       originalPrice: "PKR 5,500",
-      image: "/placeholder.svg?height=400&width=300&text=Embroidered+Lawn+Suit",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrervKChC0l0SFku2jeKdTNarjpaBPeyKpfA&s",
       badge: "NEW",
     },
     {
@@ -21,7 +21,7 @@ export default function ProductShowcase() {
       name: "Cotton Kurta Shalwar",
       price: "PKR 3,200",
       originalPrice: "PKR 4,000",
-      image: "/placeholder.svg?height=400&width=300&text=Cotton+Kurta+Shalwar",
+      image: "https://i.pinimg.com/564x/c4/af/5a/c4af5af924abc3b6c209cf76008bcbbf.jpg",
       badge: "SALE",
     },
     {
@@ -29,7 +29,7 @@ export default function ProductShowcase() {
       name: "Silk Dupatta Collection",
       price: "PKR 2,800",
       originalPrice: "",
-      image: "/placeholder.svg?height=400&width=300&text=Silk+Dupatta",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQybRai6LiU2YdTlwxxpvoTfmGQRobjLmZXOA&s",
       badge: "",
     },
     {
@@ -37,7 +37,7 @@ export default function ProductShowcase() {
       name: "Premium Fragrance Set",
       price: "PKR 6,500",
       originalPrice: "PKR 8,000",
-      image: "/placeholder.svg?height=400&width=300&text=Fragrance+Set",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUiVYbWppsYCbsYCnrguofcybeHr70fqapw&s",
       badge: "BESTSELLER",
     },
   ]

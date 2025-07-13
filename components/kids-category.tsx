@@ -1,9 +1,9 @@
 export default function KidsCategory() {
   const categories = [
-    { name: "Hair Care", image: "/placeholder.svg?height=300&width=250&text=Kids+Hair+Products" },
-    { name: "Teen Boys", image: "/placeholder.svg?height=300&width=250&text=Teen+Boys+Kurta" },
-    { name: "Kid Girls", image: "/placeholder.svg?height=300&width=250&text=Girls+Frocks+Collection" },
-    { name: "Kid Boys", image: "/placeholder.svg?height=300&width=250&text=Boys+Shalwar+Kameez" },
+    { name: "Hair Care", image: "https://cdn.shopify.com/s/files/1/0513/2409/files/7_hair_feat_1.png?v=1680294221" },
+    { name: "Teen Boys", image: "https://bachaaparty.com/cdn/shop/files/BPE_5104_7cd7e46a-29a7-427b-b694-c3ade2605705.jpg?v=1742988521&width=1080" },
+    { name: "Kid Girls", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwU_YJBA2PY8PEco9fpORzf9pFLwjfchRCJw&s" },
+    { name: "Kid Boys", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyA4FyprdvpwDupw_uuC0db7h1OHHryrPY7Q&s" },
   ]
 
   return (
