@@ -3,7 +3,7 @@ export default function FeaturedCollections() {
     {
       title: "Embroidered Collection",
       description: "Exquisite embroidered pieces for special occasions",
-      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1RjkB7gvMUuioc7c3-f3AdCE5IEQdOCZQ5w&s",
       link: "https://www.etsy.com/market/embroidered_clothing"
     },
     {

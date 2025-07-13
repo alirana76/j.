@@ -1,9 +1,7 @@
 import Header from "@/components/header"
 import HeroSection from "@/components/hero-section"
-import ShopForNewArrival from "@/components/shop-for-new-arrival"
 import ProductShowcase from "@/components/product-showcase"
 import FeaturedCollections from "@/components/featured-collections"
-import WatchAndBuy from "@/components/watch-and-buy"
 import WomenCategory from "@/components/women-category"
 import MenCategory from "@/components/men-category"
 import FragrancesCategory from "@/components/fragrances-category"
@@ -17,15 +15,33 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Header />
       <HeroSection />
-      <ShopForNewArrival />
-      <ProductShowcase />
-      <FeaturedCollections />
-      <WatchAndBuy />
-      <WomenCategory />
-      <MenCategory />
-      <FragrancesCategory />
-      <KidsCategory />
-      <SkincareSection />
+      
+      <main className="space-y-20">
+        <ProductShowcase />
+        <FeaturedCollections />
+        
+        {/* Category Sections with proper IDs */}
+        <section id="women" className="scroll-mt-20">
+          <WomenCategory />
+        </section>
+        
+        <section id="men" className="scroll-mt-20">
+          <MenCategory />
+        </section>
+        
+        <section id="fragrances" className="scroll-mt-20">
+          <FragrancesCategory />
+        </section>
+        
+        <section id="kids" className="scroll-mt-20">
+          <KidsCategory />
+        </section>
+        
+        <section id="skincare" className="scroll-mt-20">
+          <SkincareSection />
+        </section>
+      </main>
+      
       <Newsletter />
       <Footer />
     </div>
